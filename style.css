@@ -1,0 +1,188 @@
+.wrapper{
+	display:block; 
+	height:750px; 
+	max-width:1000px; 
+	margin:0px auto; 
+	position:relative;
+}
+
+.btnContainer {
+    margin-top: 1.5%;
+}
+
+.questionContainer {
+	display:inherit;
+	padding:0px;
+	margin-bottom:30px;
+}
+
+.question{
+	font-weight:bold;
+	font-size:18px !important;
+	margin-bottom:3%;
+}
+
+.socialBlock{
+	padding-top:20px;
+}
+
+.socialBlock .ico {
+	font-size: 3em;
+}
+
+.prev { 
+	float: left;
+	margin-right:10px;
+	cursor:pointer; 
+	background-color: #000;
+	padding: 10px;
+	color: #fff; 
+}
+
+.next, .btnShowResult { 
+	float: left;
+	cursor:pointer;	
+	background-color: #000;
+	padding: 10px;
+	color: #fff;  
+}
+
+.clear { clear: both; }
+
+.hide { display: none; }
+
+.scoreBox{
+	display:block;
+	height:50px;
+}
+
+.quesNum{
+	display:inline;
+	float:left;
+	padding-left:25px;
+	width:70%;
+}
+
+.scoreTwo{
+	display:inline;
+	float:left;
+	padding-left:0px;
+	width:20%;
+}
+
+.correctAns{
+	color:#275937;
+}
+
+.wrongAns{
+	color:#B71234;
+}
+
+.correctAns,.wrongAns,.finalAns{
+    display:block;
+	font-size:30px;
+	font-weight:bold;
+}
+
+.correctAns,.wrongAns{
+       margin:0px 0 10px 10px;
+}
+
+.whites{
+	border-radius:5px;
+	position:absolute;
+	padding:1em;
+	margin:2em;
+	background-color:#fff;
+	opacity:0.9;
+	filter:alpha(opacity=90); /* For IE8 and earlier */
+	width:500px;
+}
+
+.answerContainer{
+	position:absolute;
+	padding:1em;
+	margin:2em;
+	background-color:#fff;
+	opacity:0.9;
+	filter:alpha(opacity=90); /* For IE8 and earlier */
+	width:500px;
+}
+
+.whites input[type="radio"] {
+	float:left;
+	margin:2em;
+	margin:5px 10px 0px 25px;
+	cursor:pointer;
+}
+
+.whites label{
+	display:block;
+	padding-left:0px;
+	margin-bottom:10px;
+}
+
+.btnContainer{
+	margin-bottom:1em;
+}
+
+.btnNext,.nxtQues,.btnShowResult{
+	margin:10px 0px 0px 10px;
+}
+
+.scoreTwoBox{
+	background-color:#1e1e1e;
+	color:#fff;
+	font-size:20px;
+	padding:5px;
+}
+
+.rightAnswer p,.wrongAnswer p,#socialBlock{
+	margin:0 0 10px 10px;
+}
+
+@media only screen and (max-width : 768px) {
+	.whites{
+		position:relative;
+		width: 100%;
+		margin:0em;
+		padding:0em;
+		max-width:768px;
+	}
+	.answerContainer{
+		position:relative;
+		width: 100%;
+		margin:0em;
+		padding:0em;
+		max-width:768px;
+	}
+	.finalAns{
+		font-size:24px;
+	}
+	.scoreTwo{
+		padding-left:0px;
+	}
+	.quesNum{
+		padding-left:0px;
+	}
+	.btnContainer{
+		margin-bottom:10px;
+	}
+	.questionContainer,.ansContainer, #resultKeeper, .btnContainer, #photoHold , .quesPhoto {
+		width: 100%;
+	}
+	.rightAnswer p, .wrongAnswer p, #socialBlock{
+		margin: 0px 10px 10px 10px;
+	}
+	.wrongAns,.correctAns{
+		display:block;
+		margin:10px 0 0 10px;
+	}
+	.finalAns{
+       display:block;
+       margin-bottom:10px;
+	}
+	.scoreTwo,.quesNum{
+		padding-left:5px;
+	}
+}
