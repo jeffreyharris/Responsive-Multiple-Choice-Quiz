@@ -3,7 +3,7 @@
 <h2>What's This?</h2>
 An application that creates a multiple choice quiz featuring interactive questions, animations and different outcomes depending on score. The application is also responsive, so the quiz will work well on all screen sizes.
 
-**demo coming soon**
+<a href="http://jeffreyharris.net/quiz/index.html">A demo can be seen here.</a>
 
 <h2>Requirements</h2>
 Jquery 1.11.2 +
