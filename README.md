@@ -1,13 +1,13 @@
 # Responsive-Multiple-Choice-Quiz
 
 <h2>What's This?</h2>
-An application that creates a multiple choice quiz featuring interactive questions, animations and different outcomes depending on score. The application is also responsive, so the quiz will work well on all screen sizes.
+An application that creates a multiple-choice quiz featuring interactive questions, animations and different outcomes depending on score. The application is also responsive, so the quiz will work well on all screen sizes.
 
 <a href="http://jeffreyharris.net/quiz/index.html">A demo can be seen here.</a>
 
 <h2>Requirements</h2>
-Jquery 1.11.2 +
-Graphics for the backgrounds of each question. The backgrounds can also change depending on the user getting each question correct.
+- Jquery 1.11.2 +
+- Graphics for the backgrounds of each question. The backgrounds can also change depending on the user getting each question correct.
 
 <h2>Usage:</h2>
 Replace the images and questions in the demo with your own. Make sure to mark the correct answer in each question's html code.
@@ -23,7 +23,7 @@ Example:
 <div class="ans"><label><input id="wrong" class="2000" type="radio">2000</label></div>
 ```
 
-The quiz can have any number of questions, just make sure thier worth adds up to 100. To edit the worth of each correct answer, edit the "quizScore + ##" in line 150 of the Javascript file:
+The quiz can have any number of questions; just make sure their worth adds up to 100. To edit the worth of each correct answer, edit the "quizScore + ##" in line 150 of the Javascript file:
 
 Example:
 
